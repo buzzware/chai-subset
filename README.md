@@ -41,7 +41,7 @@ expect(obj).to.containSubset({
 });
 
 // or using a compare function
-expect(obj).containSubset({
+expect(obj).to.containSubset({
 	a: (expectedValue) => expectedValue,
 	c: (expectedValue) => expectedValue === 'd'
 })
